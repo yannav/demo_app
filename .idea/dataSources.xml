@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2798290508">
+  <component name="DataSourceManagerImpl" format="xml" hash="2068965961">
     <data-source source="LOCAL" name="Rails demo_app: development" uuid="7b9ea50b-1e5c-46ba-8831-21b81d08d07b">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\rails_projects\demo_app\db\development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_app: test" uuid="cc46be9a-73d0-4562-9d7c-32fa5b0f379c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails demo_app: production" uuid="6e41b043-00d4-4e60-8d2d-9b0b63470400">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
